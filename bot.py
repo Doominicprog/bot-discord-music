@@ -22,7 +22,7 @@ exts=['music'] #Add your Cog extensions here
 
 @bot.event
 async def on_ready():
-    song_name='TWICE - What is love?' 
+    song_name='+help' 
     activity_type=discord.ActivityType.listening
     await bot.change_presence(activity=discord.Activity(type=activity_type,name=song_name))
     print(bot.user.name)
@@ -36,4 +36,5 @@ for i in exts:
     bot.load_extension(i)
 
 
-bot.run('NzQzMjQzNjI3ODUzMjUwNjUx.XzR1kQ.7aymthCbQ8Uv023_1ZEQ2wq97Jg')
+
+bot.run(os.environ['TOKEN'])
