@@ -37,4 +37,4 @@ for i in exts:
 
 
 
-bot.run('bfQCtAIkTBLsaP2hx_RdOzbvu_GcQrkk')
+bot.run('r8hkh67S_Rw3IAjm5w4jAms2KYlbfxWa')
