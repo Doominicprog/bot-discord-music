@@ -22,7 +22,7 @@ exts=['music'] #Add your Cog extensions here
 
 @bot.event
 async def on_ready():
-    song_name='+help' 
+    song_name='=help' 
     activity_type=discord.ActivityType.listening
     await bot.change_presence(activity=discord.Activity(type=activity_type,name=song_name))
     print(bot.user.name)
